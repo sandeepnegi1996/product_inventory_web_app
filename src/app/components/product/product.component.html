@@ -1,18 +1,22 @@
 
     <div>
-    
-    <div id="productCards">
+        <mat-card class="product-card">
 
-       Product Id : {{ product.pid }}
-       <br>
-       Product Name : {{ product.pName }}
-       <br>
+            <mat-card-header>
+                <mat-card-title>{{ product.pName }}</mat-card-title>
+            </mat-card-header>
 
-       Product Quantity : {{ product.pquantity }}
-       <br><br>
+            <mat-card-content>
+                <p>This is the apple juice which is really helpful for your health it contain vitamin and many other minerals </p>
+                <h4>Quantity is {{ product.pquantity }}</h4>
+                
+            </mat-card-content>
 
-        <button>Update</button>
-        <button>Delete</button>
 
-    </div>   
+            <mat-card-actions>
+                <button mat-button >UPDATE</button>
+                <button mat-button>DELETE</button>
+            </mat-card-actions>
+
+        </mat-card>
     </div>

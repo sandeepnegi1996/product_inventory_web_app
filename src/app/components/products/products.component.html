@@ -1,31 +1,8 @@
 
 <div>
     <h3>Products Listing</h3>
-
-    <!-- 
-    <ul *ngFor="let item of products">
-        <li>
-            {{ item.pid }}
-            {{ item.pName }}
-            {{ item.pquantity }}
-        </li>
-    </ul>
-
-    -->
-
-
-
-
 <app-product *ngFor="let item of products" [product]="item">
-    <!-- 
-        here products is passed as a property in the app-product component and it will as a input property
-        for that we need to import the input 
-        and we need to add the decorator in before the variable
-    -->
-
 </app-product>
 
-<button id="addProduct">Add Product</button>
-
-
+<button mat-raised-button >ADD PRODUCT</button>
 </div>

@@ -1,16 +1,6 @@
-:host{
-    display: block;
-    border: 1px solid black;
-}
 
-:host-context(.theme-dark) div{
-    background-color: #1212e0;
-}
+.product-card{
 
-
-#productCards{
-
-    padding: 20px 10px;
-    margin: 10px;
+    max-width: 300px;
 
 }
